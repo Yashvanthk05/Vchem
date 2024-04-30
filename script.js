@@ -82,7 +82,7 @@ function fetchBatteryInfo() {
         }
     };
 
-    const battery = batteryData[batteryName].toLowerCase();
+    const battery =document.getElementById("batteryName").value.toLowerCase();
 
     if (battery) {
         const batteryInfo = `
