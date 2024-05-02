@@ -1,7 +1,6 @@
 function fetchBatteryInfo() {
     const batteryName = document.getElementById("batteryName").value;
 
-    // Example data with URLs to external images
     const batteryData = {
         "lithium ion": {
             "electrolyte": "Lithium salt in organic solvent",
@@ -101,5 +100,5 @@ function fetchBatteryInfo() {
         document.getElementById("batteryInfo").innerHTML = "<p>Battery information not found.</p>";
     }
 
-    return false; // Prevent form submission
+    return false;
 }
